@@ -1,0 +1,5 @@
+a=[1,2,3,4]
+sum=0
+for n in a:
+    sum+=n
+print("Sum of array=",sum)
