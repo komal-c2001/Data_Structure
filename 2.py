@@ -13,10 +13,14 @@ smin = a[0]
 for b in a:
     if b > max:
         smax = max
-        max = b
+        max =b
+    elif b>smax and max!=b:
+        smax=b
     if b < min:
         smin = min
         min = b
+    elif b<smin and min!=b:
+        smin=b
 
 print("Second Largest number in array =", smax)
 print("Second smallest number in array =", smin)

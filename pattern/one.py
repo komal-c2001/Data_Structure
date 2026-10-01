@@ -1,4 +1,6 @@
-n=7
+n=int(input("Enter a number="))
+if(n%2==0):
+    n+=1
 for i in range(n):
     for j in range(n):
         if i==n//2 or j==n//2:
